@@ -4,6 +4,7 @@ class StudentsController < ApplicationController
   end
 
   def show
+    set_student
   end
 
 private
