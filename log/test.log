@@ -957,3 +957,5 @@ Started GET "/students/1" for 127.0.0.1 at 2018-01-12 11:54:37 -0500
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
 Started GET "/students" for 127.0.0.1 at 2019-03-12 15:40:42 +0000
 Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.erb within layouts/application (5.0ms)
