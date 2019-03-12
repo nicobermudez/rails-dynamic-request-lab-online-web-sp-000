@@ -12,3 +12,4 @@ private
     @student = Student.find(params[:id])
   end
 end
+end
